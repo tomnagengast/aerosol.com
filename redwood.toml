@@ -6,11 +6,11 @@
 # https://redwoodjs.com/docs/app-configuration-redwood-toml
 
 [web]
-  title = "Aerosol"
-  port = 8910
-  apiUrl = "/.netlify/functions"
-  includeEnvironmentVariables = []
+title = "Aerosol"
+port = 8910
+apiUrl = "/.netlify/functions"
+includeEnvironmentVariables = []
 [api]
-  port = 8911
+port = 8911
 [browser]
-  open = true
+open = true

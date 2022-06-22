@@ -8,11 +8,11 @@
  * See https://redwoodjs.com/docs/authentication for more info.
  */
 export const isAuthenticated = () => {
-  return true
+    return true
 }
 
 export const hasRole = ({ roles }) => {
-  return roles !== undefined
+    return roles !== undefined
 }
 
 // This is used by the redwood directive
@@ -21,5 +21,5 @@ export const hasRole = ({ roles }) => {
 // Roles are passed in by the requireAuth directive if you have auth setup
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 export const requireAuth = ({ roles }) => {
-  return isAuthenticated()
+    return isAuthenticated()
 }
