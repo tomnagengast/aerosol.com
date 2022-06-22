@@ -65,23 +65,6 @@ const PostForm = (props) => {
 
                 <FieldError name="body" className="rw-field-error" />
 
-                <Label
-                    name="archived_at"
-                    className="rw-label"
-                    errorClassName="rw-label rw-label-error"
-                >
-                    Archived at
-                </Label>
-
-                <DatetimeLocalField
-                    name="archived_at"
-                    defaultValue={formatDatetime(props.post?.archived_at)}
-                    className="rw-input"
-                    errorClassName="rw-input rw-input-error"
-                />
-
-                <FieldError name="archived_at" className="rw-field-error" />
-
                 <div className="rw-button-group">
                     <Submit
                         disabled={props.loading}

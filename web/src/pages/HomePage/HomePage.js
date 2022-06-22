@@ -5,22 +5,7 @@ const HomePage = () => {
     return (
         <>
             <MetaTags title="Home" description="Home page" />
-
-            <h1 className="text-3xl text-blue-700 font-semibold">HomePage</h1>
-            <p>
-                Find me in <code>./web/src/pages/HomePage/HomePage.js</code>
-            </p>
-            <p>
-                My default route is named <code>home</code>, link to me with
-                <ul>
-                    <li>
-                        <Link to={routes.home()}>Home</Link>
-                    </li>
-                    <li>
-                        <Link to={routes.about()}>About</Link>
-                    </li>
-                </ul>
-            </p>
+            <p>Well, well, well. This is the home page.</p>
         </>
     )
 }
